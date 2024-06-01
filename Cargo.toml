@@ -1,0 +1,12 @@
+[package]
+name = "chatfilter"
+version = "0.1.0"
+edition = "2021"
+authors=["smokingplaya"]
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies]
+gmod = "17.0.0"
+lazy_static = "1.4.0"
